@@ -1,5 +1,22 @@
 Project Name:
+
 Project Description: 
-Features:
-Team Leads:
-Contributors:
+A web app to let user create account, login, add a meeting schedule, 
+add a meeting locationh based on map, select participants, save the reminder, 
+other participants should be able to receive a notification about the meeting and all details, 
+search upcoming meetings and more. 
+
+Non Functional Requirements:
+1. Visit a website application
+2. Prompt to login
+3. If user has not registered, will prompt to create an account, will be able to recieve an activition
+email to activate account before going further, if email activited, user is confirmed and saveed to 
+our database
+4. If login credentials are correct, granted permissions to view the website.
+5. User will be able to initiate/create a new meeting schedule
+6. User will be able to view the recently placed meetings and recent activities.
+7. A system should be able to send the notification to all recipients once a user create a meetung schedule.
+8. User will be able to edit the meeting he/she has created. 
+The updated schedule will be sent again to the recipients.
+9. Once again recipient should get notifications one week and one day before of meetings scheduled.
+10. user should be able to search for upcoming meetings by location, organizer or meeting name
